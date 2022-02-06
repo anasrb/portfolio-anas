@@ -1,0 +1,193 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>
+			Création de portfolio
+		</title>
+	</head>
+	<body>
+		<nav>
+			<div class="profile">
+				<img src="images/photo-id.png" alt="profile photo" />
+				<h1>ARROUB Anas</h1>
+			</div>
+			<ul>
+				<a href="#accueil"><li>Accueil</li> </a>
+				<a href="#projet"> <li>Mes projets</li> </a>
+				<a href="#cv">	<li>Curriculum Vitae</li> </a>
+				<a href="#contact"> <li>Contact</li> </a>
+			</ul>
+		</nav>
+
+		<section class="page-content">
+			<header>
+				<h1>Hey, je suis un développeur web .</h1>
+                <!-- <div>
+                    A PROPOS DE MOI
+                </div> -->
+				<p>
+					Bonjour, je m’appelle Anas ARROUB, développeur Web junior. <br>
+					De nature sportive, je suis une personne dynamique qui aime se fixer des objectifs pour avancer. Produit du service éducatif marocain avec un bac +4 en technologie alimentaire.<br>
+ 
+Auparavant, j’ai effectué plusieurs années en tant que téléconseiller dans l’expertise technique (Canal+ / SFR) ce qui m’a permis d’acquérir de très bonnes compétences telles que l’organisation, l’écoute, le conseil ainsi que des qualités relationnelles importantes.
+ 
+
+				</p>
+            <button><a href="#nogo" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none';">Lire la suite...</a></button>
+           <p id="lirelasuite"> j'ai dû démissionner pour effectuer une reconversion professionnelle dans le Développement Web, domaine qui m’intéresse depuis de nombreuses années.
+            J’ai donc suivi la formation au sein de la 3W Academy...
+           </p>
+           
+			</header>
+
+			<section class="presentation-image">
+				<img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
+			</section>
+<!-- 
+			<section class="projects-section">
+				<h1>Projets réalisés</h1>
+				<div class="projects">
+					<div class="project">
+						<h4>Un robot créateur de cookies</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2015 - 2016</p>
+					</div>
+					<div class="project">
+						<h4>Prévision du caractère humain</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2016 - 2017</p>
+					</div>
+					<div class="project">
+						<h4>Création d'un assistant vocal</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2017 - 2018</p>
+					</div>
+					<div class="project">
+						<h4>Reconnaissance de formes</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2019 - 2020</p>
+					</div>
+					<div class="project">
+						<h4>Algorithme de reconnaissance d'objet</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2020 - 2021</p>
+					</div>
+				</div>
+			</section>
+		</section> -->
+        <section class="projects-section">
+            <h1 id="projet">Projets réalisés</h1>
+        <div class="portfolio">
+            <div class="image active" style="background: url(images/projet-grid.png) center/cover;">
+                <div class="text-container">
+                  <div class="text">
+                    <h3><span>Sport-grid</span></h3>
+                    <p>Projet réalisé avec HTML & CSS.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="image" style="background: url(images/weather-app.png) center/cover;">
+                <div class="text-container">
+                  <div class="text">
+                    <h3><span>Weather app</span></h3>
+                    <p>Une petite application codée avec JAVASCRIPT.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="image" style="background: url(images/movie-react.png) center/cover;">
+                <div class="text-container">
+                  <div class="text">
+                    <h3><span>React movies</span></h3>
+                    <p>Site de film et de série programé avec REACT.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="image" style="background: url(images/portfolio-screen2.png) center/cover;">
+                <div class="text-container">
+                  <div class="text">
+                    <h3><span>My portfolio</span></h3>
+                    <p>Site sur lequel vous êtes actuellement.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="image" style="background: url(images/e-com-site.png) center/cover;">
+                <div class="text-container">
+                  <div class="text">
+                    <h3><span>My store</span></h3>
+                    <p>Site e-commerce codé avec LARAVEL & REACT.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+		<footer>
+			<div class="colonne">
+				<h3>Mes compétences:</h3>
+			<div class="competences one">
+				<div class="color"><i class="fa fa-html5" aria-hidden="true" style="font-size: 3em" title="HTML";> </i> </div>
+				<div class="color"><i class="fa fa-css3" aria-hidden="true"style="font-size: 3em" title="CSS";></i> </div>
+			    <div class="color"><i class="fab fa-js"style="font-size: 3em"title="JAVASCRIPT";></i> </div>
+			</div>
+			
+                <div class="competences two">
+				<div class="color"><i class="fab fa-react"style="font-size: 3em" title="REAT";></i> </div>
+				<div class="color"><i class="fab fa-php"style="font-size: 3em" title="PHP";></i> </div>
+				<div class="color"><i class="fab fa-laravel"style="font-size: 3em" title="LARAVEL";></i></div>
+
+			</div>
+			</div>
+			
+			<div class="colonne">
+				<h3>Mes réseaux:</h3>
+				<div class="réseaux bloc">
+				<a href="https://github.com/anasrb"><div id="github" class="color"><i class="fa fa-github" aria-hidden="true"style="font-size: 3em" title="GITHUB";></i></div> </a>
+				<a href="https://www.linkedin.com/in/anas-a-a85245219/"><div id="linkedin" class="color"><i class="fa fa-linkedin-square" aria-hidden="true"style="font-size: 3em" title="LINKEDIN";></i></div> </a>
+				<a href="CV stage Anas ARROUB stagiaire-dev.pdf" download="CV stage ANAS ARROUB" ><div id="cv" class="color"><i class="fa fa-file-text" aria-hidden="true"style="font-size: 3em" title="Télécharger le CV";></i></div> </a>
+			</div>
+				</div>
+				
+			</div>
+			<div class="colonne">
+				<h3 id="contact">Contact:</h3>
+				<div  class="color"><i class="fa fa-envelope" aria-hidden="true"style="font-size: 2em" title="EMAIL";></i>   anasarroub@gmail.com</div>
+				<div class="color"><i class="fa fa-envelope" aria-hidden="true"style="font-size: 2em" title="EMAIL";></i>   arroubanas@outlook.fr</div>
+				<div class="color"><i class="fa fa-phone-square" aria-hidden="true"style="font-size: 2em" title="PHONE";></i>   +212-684616808
+				</div>
+			</div>
+			<!-- <style>
+				div:not(.no_common_style){
+					margin-bottom: 0%;
+				}
+			  </style> -->
+		</footer>
+        <script src="jquery.min.js" type="text/javascript"> 
+        </script>
+        <!-- <script src="./assets/bootstrap.js" type="text/javascript"> 
+        </script> -->
+        <script src="app.js" type="text/javascript"> </script>
+		<script src="https://kit.fontawesome.com/ba759fc23f.js" crossorigin="anonymous"></script>
+		<script src="texte.js" type="text/javascript"> </script>
+	</body>
+</html>
